@@ -1,0 +1,125 @@
+nav {
+    background-color: brown;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+
+}
+
+nav a {
+    text-decoration: none;
+    color: aliceblue;
+    padding-left: 70px;
+    padding-right: 70px;
+    font-size: 20px;
+    border-right: 1px solid black;
+}
+
+nav a:last-child {
+    border-right: 0px;
+}
+
+
+#Imagemotavio {
+    width: 100%;
+    height: 700px;
+    border: 0px;
+
+}
+
+#conteudo {
+    display: flex;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+#texto {
+
+    background-color: antiquewhite;
+    width: 50%;
+    height: 1000px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#imagens {
+    background-color: antiquewhite;
+    width: 50%;
+    height: 1000px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+figure {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 10px;
+
+
+}
+
+.fotodireita {
+
+    border: 3px solid brown;
+    height: 300px;
+    width: 250px;
+
+
+}
+
+figcaption {
+    background-color: brown;
+    width: 250px;
+    display: flex;
+    color: aliceblue;
+    justify-content: center;
+    align-items: center;
+    padding: 3px;
+}
+
+
+body {
+
+    background-color: antiquewhite;
+
+}
+
+
+footer {
+    width: 100%;
+    height: 50px;
+    background-color: brown;
+}
+
+
+h1 {
+    padding-right: 250px;
+    padding-bottom: 40px;
+    font-size: 50px;
+    padding-left: 30px;
+    font-family: sans-serif;
+    color: brown;
+
+
+}
+
+p {
+    padding-bottom: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 20px;
+    font-family: sans-serif;
+    color: brown;
+}
+
+* {
+    margin: 0px;
+    padding: 0%;
+}
